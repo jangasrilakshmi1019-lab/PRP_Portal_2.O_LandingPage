@@ -1,0 +1,557 @@
+
+
+.LandingPage-container {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  color: #132a56;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.LandingPage-container *,
+.LandingPage-container *::before,
+.LandingPage-container *::after {
+  box-sizing: border-box;
+}
+
+/* ---Header--- */
+.LandingPage-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 46px 0 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #cdd7db;
+}
+
+.LandingPage-headerLogo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.LandingPage-headerLogoIcon {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.LandingPage-headerLogoText {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #132a56;
+}
+
+/*---nav frame---*/
+.LandingPage-headerNav {
+  position: absolute;
+  top: 35px;
+  left: 432px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1040px;
+  height: 30px;
+}
+
+.LandingPage-headerNavLink {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #132a56;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.LandingPage-headerNavLinkActive {
+  border-bottom-color: #132a56;
+}
+
+/*---buttons frame---*/
+.LandingPage-headerActions {
+  display: flex;
+  gap: 20px;
+}
+
+.LandingPage-headerLoginBtn,
+.LandingPage-headerRegisterBtn {
+  width: 135px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.LandingPage-headerLoginBtn {
+  background: #176789;
+}
+
+.LandingPage-headerRegisterBtn {
+  background: #142b57;
+}
+
+/* ---Hero--- */
+.LandingPage-hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 713px;
+  padding: 50px 150px 48px;
+  background: linear-gradient(90deg, #4a5f87 0%, #ffffff 60%);
+}
+
+.LandingPage-heroContent {
+  width: 670px;
+  padding-top: 111px;
+}
+
+.LandingPage-heroTag {
+  margin: 0 0 36px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #132a56;
+}
+
+.LandingPage-heroTitle {
+  margin: 0 0 34px;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 72px;
+  color: #132a56;
+}
+
+.LandingPage-heroText {
+  margin: 0 0 44px;
+  font-size: 24px;
+  line-height: 40px;
+  color: #132a56;
+}
+
+/*---buttons---*/
+.LandingPage-heroButtons {
+  display: flex;
+  gap: 40px;
+}
+
+.LandingPage-heroPrimaryBtn,
+.LandingPage-heroSecondaryBtn {
+  width: 200px;
+  height: 80px;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.LandingPage-heroPrimaryBtn {
+  background: #132a56;
+  color: #ffffff;
+  border: 1px solid #132a56;
+}
+
+.LandingPage-heroSecondaryBtn {
+  background: #ffffff;
+  color: #132a56;
+  border: 1px solid #ffffff;
+}
+
+/*---illustration---*/
+.LandingPage-heroImage {
+  width: 700px;
+  height: 500px;
+  margin-top: 58px;
+  object-fit: contain;
+}
+
+/* ---text--- */
+.LandingPage-sectionTag {
+  margin: 0 0 36px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+  color: #132a56;
+}
+
+.LandingPage-sectionTitle {
+  margin: 0 0 58px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  color: #17387a;
+}
+
+/* ---Features--- */
+.LandingPage-features {
+  height: 628px;
+  padding: 54px 90px 0;
+  background: linear-gradient(90deg, #4a5f87 0%, #d0d4dd 58%, #d0d4dd 100%);
+}
+
+.LandingPage-featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 300px);
+  justify-content: space-between;
+}
+
+/*---card---*/
+.LandingPage-featureCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 350px;
+  padding: 30px 28px 0;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #a4bbca;
+  border-radius: 20px;
+}
+
+/*---icon circle---*/
+.LandingPage-featureIconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 26px;
+  background: #cdddfc;
+  border-radius: 100px;
+}
+
+.LandingPage-featureIcon {
+  width: 100px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.LandingPage-featureTitle {
+  margin: 0 0 32px;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #132a56;
+}
+
+.LandingPage-featureText {
+  margin: 0;
+  font-size: 19px;
+  line-height: 30px;
+  color: #132a56;
+}
+
+/* ---Success stories--- */
+.LandingPage-stories {
+  height: 721px;
+  padding: 112px 90px 0;
+  background: linear-gradient(90deg, #4a5f87 0%, #ffffff 58%);
+}
+
+.LandingPage-storiesTitle {
+  margin-bottom: 58px;
+}
+
+.LandingPage-storiesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 553px);
+  justify-content: space-between;
+}
+
+/*---card---*/
+.LandingPage-storyCard {
+  position: relative;
+  width: 553px;
+  height: 343px;
+  padding: 49px;
+  background: #132a56;
+  border: 1px solid #2a4278;
+  border-radius: 48px;
+  color: #ffffff;
+}
+
+.LandingPage-storyQuote {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  width: 100px;
+  height: auto;
+  opacity: 0.35;
+}
+
+/*---header row---*/
+.LandingPage-storyUser {
+  display: flex;
+  align-items: Top;
+  gap: 32px;
+  width: 455px;
+  height: 96px;
+  margin-bottom: 30px;
+}
+
+/*---avatar---*/
+.LandingPage-storyAvatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 32px;
+  object-fit: cover;
+}
+
+/*---name block---*/
+.LandingPage-storyUserInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 66px;
+}
+
+.LandingPage-storyStars {
+  display: block;
+  width: 200px;
+  height: 18px;
+  margin-bottom: 4px;
+  object-fit: contain;
+}
+
+.LandingPage-storyName {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.LandingPage-storyRole {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7f8fb5;
+}
+
+.LandingPage-storyText {
+  margin: 0;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: #4a5f88;
+}
+
+/* ---Companies--- */
+.LandingPage-companies {
+  height: 340px;
+  margin-bottom: 56px;
+  padding: 53px 117px 0;
+  text-align: center;
+  background: linear-gradient(90deg, #263d68 0%, #717f9a 66%, #717f9a 100%);
+}
+
+.LandingPage-companiesTag {
+  margin: 0 0 37px;
+  font-size: 28px;
+  line-height: 40px;
+  color: #2b3558;
+}
+
+.LandingPage-companiesTitle {
+  margin: 0 0 52px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #dce6ff;
+}
+
+/* ---logos---*/
+.LandingPage-companiesLogos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+}
+
+.LandingPage-companiesLogo {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+/* ---Footer--- */
+.LandingPage-footer {
+  height: 483px;
+  padding: 56px 120px 0;
+  background: #182341;
+  color: #ffffff;
+}
+
+.LandingPage-footerColumns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 52px;
+  height: 260px;
+  border-bottom: 1px solid #2c3a5e;
+}
+
+.LandingPage-footerColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.LandingPage-footerColumnTitle {
+  margin: 0 0 15px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.LandingPage-footerLink {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.LandingPage-footerLink:hover {
+  color: #b8c1d9;
+}
+
+.LandingPage-footerBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 24px;
+  margin-top: 32px;
+}
+
+.LandingPage-footerCopyright {
+  margin: 0;
+  font-size: 13px;
+  line-height: 16px;
+  color: #8f9bb8;
+}
+
+.LandingPage-footerSocial {
+  display: flex;
+  gap: 32px;
+}
+
+.LandingPage-footerSocialIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+/* ---Smaller screens--- */
+@media (max-width: 1700px) {
+  .LandingPage-headerNav {
+    position: static;
+    width: auto;
+    gap: 48px;
+  }
+  .LandingPage-hero {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .LandingPage-heroImage {
+    width: 560px;
+    height: 400px;
+  }
+  .LandingPage-features,
+  .LandingPage-stories {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .LandingPage-featuresGrid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+  }
+  .LandingPage-featureCard {
+    width: 100%;
+  }
+  .LandingPage-storiesGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+  .LandingPage-storyCard {
+    width: 100%;
+  }
+  .LandingPage-companies {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .LandingPage-companiesLogo {
+    width: 150px;
+    height: 45px;
+  }
+  .LandingPage-footer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .LandingPage-header {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 16px 24px;
+  }
+  .LandingPage-headerNav {
+    order: 3;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .LandingPage-hero {
+    flex-direction: column;
+    height: auto;
+    padding: 48px 24px;
+    background: linear-gradient(180deg, #4a5f87 0%, #ffffff 70%);
+  }
+  .LandingPage-heroContent {
+    width: 100%;
+    padding-top: 0;
+  }
+  .LandingPage-heroImage {
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
+  }
+  .LandingPage-features,
+  .LandingPage-stories,
+  .LandingPage-companies {
+    height: auto;
+    padding: 48px 24px;
+  }
+  .LandingPage-featuresGrid,
+  .LandingPage-storiesGrid {
+    grid-template-columns: 1fr;
+  }
+  .LandingPage-featureCard,
+  .LandingPage-storyCard {
+    height: auto;
+    min-height: 343px;
+  }
+  .LandingPage-companiesLogos {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+  .LandingPage-footer {
+    height: auto;
+    padding: 48px 24px;
+  }
+  .LandingPage-footerColumns {
+    grid-template-columns: 1fr;
+    height: auto;
+    row-gap: 24px;
+    padding-bottom: 24px;
+  }
+
+}
